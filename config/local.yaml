@@ -1,0 +1,12 @@
+env: "local"
+database:
+  driver: "postgres"
+  host: "localhost"
+  port: 5432        
+  user: "url_role"  
+  password: "aboba2298"  
+  dbname: "urldb"  
+http_server:
+  address: "localhost:8088"
+  timeout: 4s
+  idle_timeout: 60s
